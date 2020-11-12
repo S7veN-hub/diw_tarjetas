@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body {
+            background-color: rgb(201, 252, 252);
+        }
+        .main {
+            background: linear-gradient(to bottom, #64F113,#13F19C);
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 10px #fff;
+            height: 600px;
+            width: 500px;
+            position: relative;
+            z-index: 20;
+        }
+        .img1 img {
+            position: absolute;
+            display: block;
+            height: 280px;
+            width: 280px;
+            top: 35px;
+            left: 110px;
+        }
+        .img2 a img {
+            position: absolute;
+            display: block;
+            height: 50px;
+            width: 50px;
+            top: 530px;
+            left: 140px;
+        }
+        .img3 a img {
+            position: absolute;
+            display: block;
+            height: 50px;
+            width: 50px;
+            top: 530px;
+            left: 240px;
+        }
+        .img4 a img {
+            position: absolute;
+            display: block;
+            height: 50px;
+            width: 50px;
+            top: 530px;
+            left: 340px;
+        }
+        a:hover img {
+            height: 55px;
+            width: 55px;
+            top: 525px;
+        }
+        .frontBox {
+            background-color: #808089;
+            margin-left: auto;
+            margin-right: auto;
+            height: 150px;
+            width: 600px;
+            position: relative;
+            z-index: 30;
+            bottom: 240px;
+        }
+        .frontBox .text1 {
+            color: #fff;
+            font-size: xx-large;
+            font-weight: bolder;
+            position: absolute;
+            top: 30px;
+            left: 150px;
+        }
+        .frontBox .text2 {
+            color: #fff;
+            font-size: large;
+            position: absolute;
+            bottom: 10px;
+            left: 170px;
+        }
+        .backBox {
+            background-color: #5A5A5D;
+            margin-left: auto;
+            margin-right: auto;
+            height: 150px;
+            width: 580px;
+            position: relative;
+            z-index: 10;
+            bottom: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="img1"><img src="img/girl-scooter.png" alt="girl-scooter"></div>
+        <div class="img2"><a href="#"><img src="img/logo_github.png" alt="logo_github"></a></div>
+        <div class="img3"><a href="#"><img src="img/logo_twitter.png" alt="logo_twitter"></a></div>
+        <div class="img4"><a href="#"><img src="img/logo_internet.png" alt="logo_internet"></a></div>
+    </div>
+    <div class="frontBox">
+        <div class="text1">LORENZO CUCUMIS</div>
+        <div class="text2">Master Royale Supreme Boss of CSS</div>
+    </div>
+    <div class="backBox"></div>
+</body>
+</html>
